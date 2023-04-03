@@ -18,7 +18,7 @@ with DAG(
         bash_command = 'mkdir -p "/opt/airflow/dags/dados"'
     )
     def extrai_dados():
-        API_KEY = "cc8f664af1186221fc1dd044fa96da2f"
+        API_KEY = "sua_chave_aqui"
         cidade = "santarem"
         link = f"https://api.openweathermap.org/data/2.5/forecast?q={cidade}&appid={API_KEY}&lang=pt_br"
 
